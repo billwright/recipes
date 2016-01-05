@@ -10,6 +10,9 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ * The sprockets gem uses these next two lines (they are not just comments) to make all css files
+ * in this directory available to all pages in the application.
+ 
  *= require_tree .
  *= require_self
  */
